@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/a5f28c2e6c.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="cabecera" style="background-color:lightblue;">
+        <p>
+        <a href="https://portal.edu.gva.es/ceedcv/es/inicio/">
+        <img id="newspaper" src="img/logo1.png" alt="News">
+        </a>
+        </p>
+    <h1 align="right" style="color:gray; margin-right:10%;">XXI CONGRESO DE<br>
+        PERIODISMO DEL CEEDCV<br>
+    </h1>
+    <p align="right" style="margin-right:10%;">
+        <small>València, 11 al 13 de Marzo de 2023 <br>
+            Palacio de Congresos</small>
+        </p>
+    </div>
+    <div id="barramenu">
+        <p><a href="index.html" style="margin-right: 10%;">Inicio</a><a href="programacion.html" style="margin-right:10%;">Programación</a><a href="inscripcion.html">Registro a las jornadas</a>
+    </div>
+    <form action="asistentes.php" method="post">
+        <label for="Nombre">Nombre y apellidos:</label>
+        <input type="text" id="Nombre" name="Nombre" pattern="[A-Za-zÇ-Üá-Ñ]{.+}" placeholder="Nombre" title="El nombre serán solo caracteres" required maxlength="25" size="25">
+        <input type="text" id="Apellidos" name="Apellidos" pattern="[A-Za-zÇ-Üá-Ñ]{1,}" placeholder="Apellidos" title="Los apellidos serán solo caracteres" required maxlength="35" size="35"><br><br>
+        <label for="phone">Teléfono:</label>
+        <input type="text" id="phone" name="phone" pattern="[+].+" placeholder="+000000000000000" title="El teléfono debe incluir el prefijo internacional empezando por +" required maxlength="16">
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email" required maxlength="30" size="30">
+        <label for="photo"><br><br>Puede incluir su fotografía (no obligatorio):</label>
+        <input type="file" id="photo" name="photo"><br><br>
+        <textarea name="interes" rows="3" cols="100" required maxlength="250" placeholder="Breve explicación de los motivos por los cuales está interesado en participar en las jornadas">
+        </textarea><br>
+        <p><br>Indique su actividad profesional (solo una)</p>
+
+        <input type="radio" id="bachiller" name="actividad" value="bachiller">
+        <label for="bachiller">Estudiante de bachillerato</label><br>
+        <input type="radio" id="universitario" name="actividad" value="universitario">
+        <label for="bachiller">Estudiante universitario</label><br>
+        <input type="radio" id="doctorado" name="actividad" value="doctorado">
+        <label for="bachiller">Profesional informático</label><br>
+        <input type="radio" id="profesor" name="actividad" value="profesor">
+        <label for="bachiller">Profesor</label><br>
+        <input type="radio" id="otros" name="actividad" value="otros">
+        <label for="otros">Otros</label><br>
+
+
+      <p><br>¿Qué días piensa asistir al evento?</p> 
+      
+        <input type="checkbox" id="allday" name="allday" value="99">
+        <label for="allday">Asistiré los tres días</label><br>
+        <input type="checkbox" id="once" name="once" value="11">
+        <label for="once">El domingo día 11</label><br>
+        <input type="checkbox" id="doce" name="doce" value="12">
+        <label for="doce">El lunes día 12</label><br>
+        <input type="checkbox" id="trece" name="trece" value="13">
+        <label for="trece">El martes día 13</label><br><br>
+        <input type="checkbox" id="pdd" name="pdd" value="pdd" required><label for="pdd">He leído y acepto la política de protección de datos:</label>
+        <input type="submit"  value="Los datos son correctos y deseo incribirme" id="submit" name="submit">
+        <input type="reset" value="Restablecer formulario" id="reset" name="reset">
+      </form>
+      <div class="pie" style="background-color: black;">
+        <p style="vertical-align: bottom; margin-left: 5%; font-size:100%; font-family: Verdana, Geneva, Tahoma, sans-serif; color:white; text-align: left;"><br>Actividad realizada por Javier Armesto Bartolomé, para la asignatura de Lenguajes de marcas<br>
+        Primer trimestre 2022/23<br><br></p>
+        </div>
+</body>
+</html>

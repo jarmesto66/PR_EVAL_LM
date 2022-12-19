@@ -1,0 +1,110 @@
+#newspaper {
+    width: 125px;
+    float:left;
+    bottom: 5%;
+    transform: rotate(-10deg);
+    margin-left:5%;
+    margin-top: 1%;
+            }
+figcaption {
+    font-family: monospace;
+    }
+.imageneslinea {
+    display: block;
+    width: 30%;
+}
+.imageneslinea2 {
+    display: block;
+    width: 30%;
+}
+a {
+    color: orange;
+    transition: background-color .5s;
+  }
+a:hover {
+    background-color:green;
+        }
+#barramenu {
+    clear: both;
+    background-color: black;
+    font-size: 150%;
+}
+#barramenu:hover {
+    color: aquamarine;
+}
+
+#textovideo {
+    text-align: justify;
+    text-align-last: left;
+    float:left;
+    background-color: white;
+    vertical-align: middle;
+}
+#video1 {
+    float: right;
+    background-color: white;
+    margin-left: 5%;
+        }
+#tabla1 {
+    margin-top: 5%;
+}
+a:link, a:visited{
+    text-decoration: none;
+}
+p{
+    font-family: monospace;
+    margin-right: 10%;
+}
+h1{
+    font-family: monospace;
+    text-align: right;
+    color: gray;
+    margin-right: 10%;
+}
+h2{
+    font-family: monospace;
+    text-align: center;
+    font-size: 250%;
+}
+table {
+    font-family: monospace;
+    font-size: 250%;
+    align-content: center;
+}
+table#space {
+    width: 33%;
+    border-collapse: separate;
+    border-spacing: 20px 20px;
+}
+.tabla2::after {
+    clear: left;
+}
+#submit {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 10px 20px 0;
+    border: 1px solid #ccc;
+    background: #eee;
+    border-radius: 8px 8px 8px 8px;
+}
+
+#submit:hover {
+    background: rgb(157, 218, 157);
+}
+#reset {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 10px 20px 0;
+    border: 1px solid #ccc;
+    background: #eee;
+    border-radius: 8px 8px 8px 8px;
+}
+
+#reset:hover {
+    background: rgb(233, 71, 71);
+}
+label{
+    font-family: monospace;
+}
