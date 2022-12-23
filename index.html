@@ -9,19 +9,19 @@
     <title>Practica evaluable</title>
 </head>
 <body>
-    <div class="cabecera" style="background-color:lightblue;">
+    <div class="cabecera">
         <p>
             <a href="https://portal.edu.gva.es/ceedcv/es/inicio/">
                 <img id="newspaper" src="img/logo1.png" alt="News">
             </a>
         </p>
-        <h1>XXI CONGRESO DE<br>
+        <h1 style="color: #A9A9A9; margin-right: 10%;">XXI CONGRESO DE<br>
         PERIODISMO DEL CEEDCV<br>
         </h1>
-        <p style="text-align: right;">
-        <small>València, 11 al 13 de Marzo de 2023 <br>
-            Palacio de Congresos</small>
-        </p>
+        <p style="text-align: right; margin-right: 0%;">
+            <small style="margin-right: 10%;">València, 11 al 13 de Marzo de 2023<br></small>
+            <small style="margin-right: 10%;">Palacio de Congresos</small>
+            </p>
     </div>
     <div id="barramenu">
         <p><a href="index.html" style="margin-right: 10%;text-align: left;">Inicio</a><a href="programacion.html" style="margin-right:10%;">Programación</a><a href="inscripcion.html">Registro a las jornadas</a>
@@ -34,7 +34,7 @@
             <source src="media/video_jornadas.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>  
-        <h2 class="textovideo" style="margin-left:5%; font-size:150%; text-align: justify;">
+        <h2 class="textovideo" style="margin-left:5%; text-align: justify;">
             Con el reto de llevar el periodismo europeo más allá de la actualidad institucional,
             las jornadas parten del interés común de explorar nuevas vías de colaboración como
             la desarrollada por el CEEDCV y The Guardian, que desde 2019 comparten tanto contenidos,
@@ -42,35 +42,37 @@
             que tienen en común.<br><br><br>
         </h2>
     </div>
-    <div id="tabla1" style="background-color:lightblue;">
-        <table align="center"> 
-            <tr>
-                <th style="width:55%; text-align: left;">¿Dónde se realiza?</th>
-                <th style="width:45%; text-align: left;">¿Cuándo se realiza?</th>
-            </tr>
-            <tr>
-                <td style="font-size:50%;width:50%;"><br><br>Salón de actos del Complejo Misericordia<br>
-                    Plaza de la Misericordia, València, 46115 Tel. 963512522<br>
-                    <a href="mailto:info@congresoceed.org" style="color: blue;">info@congresoceed.org</a>
-                    <br><br><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-facebook" style="margin-left:1%;"></i>
-                </td>
-                <td style="font-size:50%;width:50%;"><br><br>Sábado, 11 de marzo, de 9:00 h a 20 h<br>
-                Domingo, 12 de marzo de 9:00 h a 14:00 h<br>
-                Lunes, 13 de marzo de 9:00 h a 20:00 h<br>
+    <div id="lista1" style="background-color: #648da0; ">
+        <dl>
+        <div style="float: left; margin-left: 5%;">
+            <dt>¿Dónde se realiza?</dt>
+            <dd><br></dd>
+            <dd>Salón de actos del Complejo Misericordia</dd>
+            <dd>Plaza de la Misericordia, València</dd>
+            <dd>46115 Tel. 963512522</dd>
+            <dd><a href="mailto:info@congresoceed.org">info@congresoceed.org</a></dd>
+            <dd><a href="https://twitter.com/jarmesto"><i class="fa-brands fa-twitter" style="height: 1cm; color: #00acee;"></i></a><a href="https://www.facebook.com/armesto"><i class="fa-brands fa-facebook" style="color: #3b5998; width: auto;"></i></a></dd>
+        </div>
+        <div style="margin-left: 60%;">
+            <dt>¿Cuándo se realiza?</dt>
+            <dd><br></dd>
+            <dd>Sábado, 11 de marzo, de 9:00 h a 20 h</dd>
+            <dd>Domingo, 12 de marzo de 9:00 h a 14:00 h</dd>
+            <dd>Lunes, 13 de marzo de 9:00 h a 20:00 h</dd>
+            <dd><div id="resalte1" style="font: size 16px;">
+                <br>Entrada libre con <a href="inscripcion.html"">inscripción</a> previa<br>
+        </div></dd>
+    </div>
+        </dl>
+        
                 
                 <!-- SE ELIMINA ESTA FECHA APARENTEMENTE POR UN ERROR DEL CLIENTE. EL CONGRESO ES DEL 11 al 13
                     COMO DEMUESTRAN LOS EVENTOS PROGRAMADOS
                     
-                    Martes, 14 de marzo de 9:00 h a 14:00 h<br> -->
-
-                <div id="resalte1" style="font-size:150%;">
-                    <br>Entrada libre con <a href="inscripcion.html" style="color:blue;">inscripción</a> previa<br>
-                </div>
-                </td>
-            </tr>
-        </table>
+                Martes, 14 de marzo de 9:00 h a 14:00 h<br> -->
+        
     </div>
-    <h2 style="text-align: center;font-size: 200%; font-style: italic;">Eventos interesantes</h2>
+    <h2 style="font-size: 16px; font-style: italic;">Eventos interesantes</h2>
     <table id="tablaimagenes" class="default">
         <tr>
             <td>
@@ -114,9 +116,9 @@
         
         </tr>
     </table>
-    <div class="pie" style="background-color: black;">
-    <p style="vertical-align: bottom; margin-left: 5%; font-size:100%; font-family: Verdana, Geneva, Tahoma, sans-serif; color:white; text-align: left;"><br>Actividad realizada por Javier Armesto Bartolomé, para la asignatura de Lenguajes de marcas<br>
-    Primer trimestre 2022/23<br><br></p>
+    <div class="pie">
+    <p style="margin-left: 5%;">Actividad realizada por Javier Armesto Bartolomé, para la asignatura de Lenguajes de marcas<br>
+    Primer trimestre 2022/23</p>
     </div>
 </body>
 </html>

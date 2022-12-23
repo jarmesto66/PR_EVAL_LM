@@ -9,24 +9,24 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="cabecera" style="background-color:lightblue;">
+    <div class="cabecera">
         <p>
-        <a href="https://portal.edu.gva.es/ceedcv/es/inicio/">
-        <img id="newspaper" src="img/logo1.png" alt="News">
-        </a>
+            <a href="https://portal.edu.gva.es/ceedcv/es/inicio/">
+                <img id="newspaper" src="img/logo1.png" alt="News">
+            </a>
         </p>
-    <h1 align="right" style="color:gray; margin-right:10%;">XXI CONGRESO DE<br>
+        <h1 style="color: #A9A9A9; margin-right: 10%;">XXI CONGRESO DE<br>
         PERIODISMO DEL CEEDCV<br>
-    </h1>
-    <p align="right" style="margin-right:10%;">
-        <small>València, 11 al 13 de Marzo de 2023 <br>
-            Palacio de Congresos</small>
-        </p>
+        </h1>
+        <p style="text-align: right; margin-right: 0%;">
+            <small style="margin-right: 10%;">València, 11 al 13 de Marzo de 2023<br></small>
+            <small style="margin-right: 10%;">Palacio de Congresos</small>
+            </p>
     </div>
     <div id="barramenu">
         <p><a href="index.html" style="margin-right: 10%;">Inicio</a><a href="programacion.html" style="margin-right:10%;">Programación</a><a href="inscripcion.html">Registro a las jornadas</a>
     </div>
-    <form action="asistentes.php" method="post">
+    <form action="asistentes.php" method="post" style="margin-left: 10%;">
         <label for="Nombre">Nombre y apellidos:</label>
         <input type="text" id="Nombre" name="Nombre" pattern="[A-Za-zÇ-Üá-Ñ]{.+}" placeholder="Nombre" title="El nombre serán solo caracteres" required maxlength="25" size="25">
         <input type="text" id="Apellidos" name="Apellidos" pattern="[A-Za-zÇ-Üá-Ñ]{1,}" placeholder="Apellidos" title="Los apellidos serán solo caracteres" required maxlength="35" size="35"><br><br>
@@ -66,9 +66,9 @@
         <input type="submit"  value="Los datos son correctos y deseo incribirme" id="submit" name="submit">
         <input type="reset" value="Restablecer formulario" id="reset" name="reset">
       </form>
-      <div class="pie" style="background-color: black;">
-        <p style="vertical-align: bottom; margin-left: 5%; font-size:100%; font-family: Verdana, Geneva, Tahoma, sans-serif; color:white; text-align: left;"><br>Actividad realizada por Javier Armesto Bartolomé, para la asignatura de Lenguajes de marcas<br>
-        Primer trimestre 2022/23<br><br></p>
+      <div class="pie">
+        <p style="margin-left: 5%;">Actividad realizada por Javier Armesto Bartolomé, para la asignatura de Lenguajes de marcas<br>
+        Primer trimestre 2022/23</p>
         </div>
 </body>
 </html>
